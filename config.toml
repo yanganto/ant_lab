@@ -43,7 +43,7 @@ taxonomies = []
 
 [extra]
 profile = 'me.jpg'
-website = "www.ant-lab.tw"
+website = "legacy.ant-lab.tw"
 github = "yanganto"
 facebook = "yanganto"
 twitter = "__yanganto__"
