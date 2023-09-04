@@ -1,3 +1,9 @@
 [submodule "themes/Ergo"]
 	path = themes/Ergo
 	url = https://github.com/yanganto/Ergo.git
+[submodule "themes/after-dark"]
+	path = themes/after-dark
+	url = https://github.com/yanganto/after-dark.git
+[submodule "themes/papaya"]
+	path = themes/papaya
+	url = https://github.com/yanganto/papaya.git

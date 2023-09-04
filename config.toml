@@ -1,6 +1,6 @@
 base_url = "https://www.ant-lab.tw"
 
-theme = "Ergo"
+theme = "papaya"
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
@@ -40,17 +40,74 @@ generate_rss = true
 #
 taxonomies = []
 
+[languages]
+[languages.en]
+# description = "My place for things about networks"
+# generate_feed = true
+# feed_filename = "atom.xml"
+# The taxonomies to be rendered for the site and their configuration of the default languages
+taxonomies = [
+    { name = "tags", feed = true, lang = "en" },
+    { name = "categories", feed = true, lang = "en" },
+]
+
+[languages.en.translations]
+projects = "Projects"
+blog = "Blog"
+about = "About"
+recent_projects = "Recent Projects"
+more_projects = "More Projects"
+recent_blog_posts = "Recent Blog Posts"
+more_blog_posts = "More blog posts"
+tag = "Tag"
+tags = "Tags"
+to_all_tags = "To all tags"
+category = "Category"
+categories = "Categories"
+to_all_categories = "To all categories"
+view_by = "View by"
+other = "Other"
+minute = "min"
+prev_page = "To newer posts"
+next_page = "To older posts"
+# Customize your post date format. See: https://tera.netlify.app/docs/#date
+date_format = "%B %e, %Y"
+
 
 [extra]
-profile = 'me.jpg'
-website = "legacy.ant-lab.tw"
-github = "yanganto"
-facebook = "yanganto"
-twitter = "__yanganto__"
-email = "yanganto@gmail.com"
-linkedin = "yanganto"
-cv = "cv.pdf"
-btc = "3EwoCmXr4HV7WD8uLcqvcJRYWF9Sz23Kqt"
-eth = "0xeD5897cCEa7aee785D31cdcA87Cf59D1D041aAFC"
-#instagram = "${your_insta}"
-#youtube = "${your_youtube_channel_id}"
+#profile = 'me.jpg'
+#website = "legacy.ant-lab.tw"
+#github = "yanganto"
+#facebook = "yanganto"
+#twitter = "__yanganto__"
+#email = "yanganto@gmail.com"
+#linkedin = "yanganto"
+#cv = "cv.pdf"
+#btc = "3EwoCmXr4HV7WD8uLcqvcJRYWF9Sz23Kqt"
+#eth = "0xeD5897cCEa7aee785D31cdcA87Cf59D1D041aAFC"
+##instagram = "${your_insta}"
+##youtube = "${your_youtube_channel_id}"
+#after_dark_menu = [
+#    {url = "$BASE_URL", name = "Home"},
+#    {url = "$BASE_URL/categories", name = "Categories"},
+#    {url = "$BASE_URL/tags", name = "Tags"},
+#    {url = "https://google.com", name = "Google"},
+#]
+color_mode = "light"
+menu_items = [
+    # { name = "projects", url = "$LANG_BASE_URL/projects", show_recent = true, recent_items = 3, recent_trans_key = "recent_projects", more_trans_key = "more_projects" },
+    # { name = "blog", url = "$LANG_BASE_URL/blog", show_recent = true, recent_items = 3, recent_trans_key = "recent_blog_posts", more_trans_key = "more_blog_posts" },
+    # tag is not a zola section, it's just a link.
+    # { name = "tags", url = "$LANG_BASE_URL/tags" },
+    { name = "about", url = "$LANG_BASE_URL/about", show_recent = false },
+]
+
+[extra.cdn]
+font_awesome = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+
+[extra.ogp]
+locale = "en_US"
+first_name = "Antonio"
+last_name = "Yang"
+gender = "male"
+username = "yanganto"
