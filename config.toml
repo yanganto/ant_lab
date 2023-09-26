@@ -1,4 +1,4 @@
-base_url = "https://www.ant-lab.tw"
+base_url = "/"
 
 theme = "papaya"
 # Whether to automatically compile all Sass files in the sass directory
