@@ -1,2 +1,2 @@
-zola version 0.17.2
+zola version 0.20.0
 
