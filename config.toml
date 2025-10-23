@@ -1,5 +1,4 @@
 base_url = "/"
-
 theme = "papaya"
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -22,9 +21,6 @@ ignored_content = []
 # A list of directories to search for additional `.sublime-syntax` files in.
 # extra_syntaxes = []
 
-# RSS
-title = "Ant Lab"
-description = "A space to record things I explore"
 # generate_rss = true
 # The number of articles to include in the RSS feed. Will include all items if
 # not set (the default).
@@ -42,10 +38,8 @@ taxonomies = []
 
 [languages]
 [languages.en]
-# description = "My place for things about networks"
-# generate_feed = true
-# feed_filename = "atom.xml"
-# The taxonomies to be rendered for the site and their configuration of the default languages
+title = "Ant Lab"
+description = "A space to record things I explore"
 taxonomies = [
     { name = "tags", feed = true, lang = "en" },
     { name = "categories", feed = true, lang = "en" },
