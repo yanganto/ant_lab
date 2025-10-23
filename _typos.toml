@@ -1,0 +1,9 @@
+
+[default]
+extend-ignore-re = [
+    "yt(.*)"
+]
+
+[default.extend-words]
+HIME = "HIME"
+
