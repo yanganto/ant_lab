@@ -34,10 +34,6 @@ ignored_content = []
 #       {name = "authors"}, # Basic definition: no RSS or pagination
 #     ]
 #
-taxonomies = []
-
-[languages]
-[languages.en]
 title = "Ant Lab"
 description = "A space to record things I explore"
 taxonomies = [
@@ -45,7 +41,9 @@ taxonomies = [
     { name = "categories", feed = true, lang = "en" },
 ]
 
-[languages.en.translations]
+# [languages]
+# [languages.en.translations]
+[translations]
 projects = "Projects"
 blog = "Blog"
 about = "About"
